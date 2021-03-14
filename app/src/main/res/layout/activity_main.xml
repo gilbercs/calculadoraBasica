@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <EditText
+            android:id="@+id/idValor1"
+            android:layout_width="@dimen/edit_largura"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_margin="@dimen/margin_all"
+            android:background="@drawable/borda"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/str_digite_valor1"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idValor2"
+            android:layout_width="@dimen/edit_largura"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_margin="@dimen/margin_all"
+            android:background="@drawable/borda"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/str_digite_valor2"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTextoResultado"
+            android:layout_width="@dimen/edit_largura"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_margin="@dimen/margin_all"
+            android:background="@drawable/borda"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fonte_padrao"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/idBtnAdicao"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borda"
+                android:onClick="calculadora"
+                android:text="@string/str_adicao" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idBtnDivisao"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_raghit"
+                android:layout_marginLeft="@dimen/margin_raghit"
+                android:background="@drawable/borda"
+                android:onClick="calculadora"
+                android:text="@string/str_divicao" />
+
+            <Button
+                android:id="@+id/idBtnMultiplicacao"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_left"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:background="@drawable/borda"
+                android:onClick="calculadora"
+                android:text="@string/str_multiplicacao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/idBtnSubtracao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borda"
+                android:onClick="calculadora"
+                android:text="@string/str_subtracao" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora Basica</string>
+    <string name="str_name">Calculadora Basica</string>
+    <string name="str_adicao">+</string>
+    <string name="str_subtracao">-</string>
+    <string name="str_divicao">/</string>
+    <string name="str_multiplicacao">*</string>
+    <string name="str_digite_valor1">Valor?</string>
+    <string name="str_digite_valor2">Valor?</string>
+    <string name="btn_calculo">Calcular</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="texto_resultado">Resultado</string>
+</resources>

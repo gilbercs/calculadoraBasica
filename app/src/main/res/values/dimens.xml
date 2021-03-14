@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fonte_padrao">18sp</dimen>
+    <!--configuração espaçamento margen-->
+    <dimen name="margin_left">5sp</dimen>
+    <dimen name="margin_raghit">5sp</dimen>
+    <dimen name="margin_top">5sp</dimen>
+    <dimen name="margin_bottom">5sp</dimen>
+    <dimen name="margin_all">5sp</dimen>
+    <!--configuração espaçamento padding-->
+    <dimen name="padding_left">5sp</dimen>
+    <dimen name="padding_raghit">5sp</dimen>
+    <dimen name="padding_top">5sp</dimen>
+    <dimen name="padding_bottom">5sp</dimen>
+    <dimen name="padding_all">5sp</dimen>
+    <!--configuração tamanho de campos-->
+    <dimen name="edit_altura">40sp</dimen>
+    <dimen name="edit_largura">200sp</dimen>
+
+</resources>
